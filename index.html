@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+
+    <style>
+        /* Internal style sheet 
+        Simple selectors
+        */
+
+        /* Selector based on tag name */
+        h2{
+            color:chocolate;
+            text-align: center;
+
+        }
+
+        body {
+            background-color: burlywood;
+
+        }
+
+        h1{
+            text-align: center;
+
+        }
+
+        /* Selector based on id - id is seldom used in CSS
+        id is often used in Javascript */
+        #unorderedSection2 {
+            color: blue;
+            font-size: 20px;
+        }
+
+        #heading2 {
+            color: chartreuse;
+
+        }
+
+        /* selector based on class - class is often used in css */
+
+    </style>
+</head>
+
+<body>
+  Click on Engineer, he will bring you go to TP
+    
+    
+    <a href="https://www.tp.edu.sg" target="_blank"><img src="images/about1.jpg" alt="engineer" /></a>
+
+    <h1 style="color: blue;border: 2px solid tomato;">NOT My First Heading</h1>
+    <h2>This is H2 heading</h2>
+    <h3>This is H3 heading.</h3>
+    <p>NOT My first paragraph.</p>
+        <div> <!-- for styling -->
+            <h2 id="heading2">Another H2</h2> <!-- id cannot start with a number -->
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, iusto quas incidunt repellendus distinctio reiciendis? Odit optio, aliquam modi facilis odio harum sit maxime suscipit officiis minima error vero reprehenderit. </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium in cumque distinctio earum harum soluta, velit deserunt reiciendis, nisi dolorum provident quis vero rem sunt, ullam illum at et possimus?</p>
+        </div>
+    <!-- the shortcut for comments is ctrl+/ -->
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero repudiandae officia nemo quod deserunt, iusto aut placeat tempora magni maxime qui blanditiis eius sit ea, perferendis nulla commodi quo dolor!
+    Quisquam modi debitis reiciendis corrupti, ratione minus cumque recusandae quis quod quae veniam possimus molestiae dicta nam quia laboriosam natus officia error soluta sequi eius, provident maiores aspernatur. Inventore, sed?
+    Laborum aspernatur rem molestias sit laudantium, quaerat veritatis est aperiam ipsum quidem inventore, voluptates adipisci, illo assumenda necessitatibus earum iste et quas? In nostrum sint odio. Sit non porro iste.</p>
+        <!-- insert comment <br> is a self closing tag -->
+            <br />This is a line break
+                <br />
+                <b>Bold text - for bold aesthetics</b>
+                <br />
+                <strong>Strong text - with bold aesthetics + will be interpreted as an important point. for eg, using a text-to-speech </strong>
+
+        <div>
+
+            <ul id="unorderedSection1"> <!-- id must be UNIQUE -->
+                <li>1</li>
+                <li>no2</li>
+            </ul>
+
+            <ul id="unorderedSection2">
+                <li>1</li>
+                <li>no2</li>
+            </ul>
+
+            <ol>
+                <li>this one come with numbered list</li>
+                <li>like this</li>
+            </ol>
+
+            <p>
+                <div id="commentSection">
+                <form>
+                    <label for="fname">First name:</label><br />
+                    <input type="text" id="fname" name="fname"><br />
+
+                    <label for="lname">Last name:</label><br />
+                    <input type="text" id="lname" name="lname">
+                  </form>
+                </div>
+            </p>
+        </div>
+</body>
+
+</html>
