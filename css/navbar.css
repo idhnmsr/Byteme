@@ -1,0 +1,39 @@
+.navbar.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
+
+.navbar a {
+    font-size: 1.777rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    margin-left: 38px;
+}
+
+.nav-item {
+    padding-left: 50px;
+}
+
+.left-box {
+    display: flex;
+    margin-right: 38px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #ed7171;
+}
+
+.login a {
+    font-size: 1.25rem;
+}
