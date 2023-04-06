@@ -1,5 +1,8 @@
 .navbar.bg-body-tertiary {
-    --bs-bg-opacity: 0;
+   --bs-bg-opacity: 0;
+
+    
+
 }
 
 .navbar a {
