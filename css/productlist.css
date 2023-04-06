@@ -1,0 +1,19 @@
+#product-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-lg-4 .card {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.col-lg-4 .card > img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
