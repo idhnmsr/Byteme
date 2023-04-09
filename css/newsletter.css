@@ -2,4 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* width: 100%; */
+    background-color: #f2f2f2;
+}
+
+#newsletter form {
+    width: 80%;
+    margin: 0;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgb(184, 184, 184);
 }
