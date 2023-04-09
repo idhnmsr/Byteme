@@ -1,4 +1,19 @@
 .content {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.row {
+    gap: 80px;
+}
+
+.content .col {
+    display: flex;
+    align-items: stretch;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgb(184, 184, 184)
 }
