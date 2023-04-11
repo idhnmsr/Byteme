@@ -1,56 +1,45 @@
 .aboutuscontent {
-    
     width: auto;
     margin-top: 5rem;
-    /* border: 5px solid red */
+}
+
+.description .team .aboutuscontent .row .col .contact {
+    display: flex;
 }
 
 .description {
     width: 100%;
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    /* border: 5px solid blue */
-    
 }
-.description h1 {
+
+.description h1 h2 {
     text-align: center;
 }
 
 .description h2 {
     padding-top: 2rem;
-    text-align: center;
 }
 
 .description p {
     line-height: 1.25;
     padding: 3rem;
 }
-.team {
-    display:flex;
-}
 
-.aboutuscontent .row {
-    display: flex;
-}
 .aboutuscontent .row .col {
-    display: flex;
     margin: 1rem;
     width: 30%;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    /* border: 2px solid red; */
 }
+
 .aboutuscontent img {
     width: 60%;
     align-items: center;
     border-radius: 50%;
     box-shadow: 5px 5px 15px darkslategrey;
     transition: all 0.5s ease-in 0.1s;
-    /* border: 2px solid orange; */
-    
 }
 
 button {
@@ -73,39 +62,7 @@ button:hover {
     border-radius: 30%;
 }
 
-/* @media screen and (max-width: 600px) {
-     styles for small screens 
-    .aboutuscontent .row .col {
-        display: flex;
-        margin: 1rem;
-        width: 30%;
-        flex-direction: column;
-        align-items: center;
-         border: 2px solid red; 
-    }
-    .aboutuscontent img {
-        width: 50%;
-        align-items: center;
-         margin: 0.5rem 0.5rem 0.5rem 0.5rem; 
-        border-radius: 50%;
-        box-shadow: 5px 5px 15px darkslategrey;
-        transition: all 0.5s ease-in 0.1s;
-         border: 2px solid orange; 
-        
-    }
-    .col button {
-        background-color: rgb(236, 167, 76);
-        border: 1px solid orangered;
-        margin: 2rem;
-        padding: 0.5rem;
-        width: 50%;
-        box-shadow: 5px 5px 10px darkslategrey;
-        transition: all 0.5s ease-in 0.1s;
-  }
-
-} */
 .contact {
-    flex: display;
     text-align: center;
     justify-content: center;
 }
