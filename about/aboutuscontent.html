@@ -17,36 +17,57 @@
             <h1>About us</h1>
             <h2>What makes BYTEME different?</h2>
 
+            <div class="Details container-fluid container-md">
             <p>BYTEME exists to spread our passion for technology, to empower consumers and to challenge
                 the impossible. We do this by constantly focusing our energies on designing better products, cultivating
                 a culture of technological education and forging radical partnerships.
                 We see ourselves as craftsmen, and our medium of expression is the custom computer. We want to broaden
                 your perspective, narrow your predicament, and turn your dreams into a reality.
                 BYTEME stands for craftsmanship, empowering end-users and delivering amazing experiences. Take some time
-                to get to know us, discover our values, and witness how we break the mould.
-            </p>
-        </div>
-        <div class="team container-fluid container-md text-center">
-            <div class="row">
-                <div class="col">
+                to get to know us, discover our values, and witness how we break the mould.</p>
+            <!-- <button onclick="myFunction()" id="myBtn">Read more</button> -->
+            <!-- <script src="/Byteme/js/aboutus.js"></script> -->
+            <!-- <script>
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script> -->
+              
+        </div>  
+        
+        <div class="team container-fluid container-md text-center" role="teamMember">
+            <div class="row" role="teamMember">
+                <div class="col" role="teamMember">
                     <img src="/Byteme/images/members/hadi.jpg" />
                     <h4>Hadi</h4>
                     <h5>CEO</h5>
                     <button type="button"><b>About Me</b></button>
                 </div>
-                <div class="col">
+                <div class="col" role="teamMember">
                     <img src="#" alt="Yuki pic" />
                     <h4>Yuki</h4>
                     <h5>Managing Director</h5>
                     <button type="button"><b>About Me</b></button>
                 </div>
-                <div class="col">
+                <div class="col" role="teamMember">
                     <img src="#" alt="Kiran pic" />
                     <h4>Kiran</h4>
                     <h5>Managing Director</h5>
                     <button type="button"><b>About Me</b></button>
                 </div>
-                <div class="col">
+                <div class="col" role="teamMember">
                     <img src="/Byteme/images/members/pat.jpg" />
                     <h4>Patricia</h4>
                     <h5>Managing Director</h5>
@@ -55,9 +76,10 @@
             </div>
         </div>
     </div>
-    <div class="contact container-fluid text-center">
+    <div class="contact container-md container-fluidr">
         <h4> We love to hear from you.</h4>
-        <h3><button type="button">DROP US AN EMAIL</button></h3>
+        <h3><button type="button"><a href="mailto:recipient@example.com" class="email-button">Drop Us An Email</a></button>
+        </h3>
         <h5>or call(+65) 5582 9874</h5>
     </div>
 </body>
