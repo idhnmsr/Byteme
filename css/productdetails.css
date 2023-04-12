@@ -1,0 +1,61 @@
+.left-col {
+  min-height: 400px;
+  min-width: 400px;
+  /* border: 2px solid pink; */
+}
+
+.right-col {
+  min-height: 400px;
+  min-width: 400px;
+  /* border: 2px solid red; */
+}
+
+/* .product-name {
+  border: 2px solid green;
+} */
+
+.product-description {
+  /* border: 2px solid pink; */
+  /* Fix important flag */
+  height: 200px !important;
+  text-align: left;
+  min-height: auto;
+}
+
+.product-description p {
+  height: 100%;
+  line-height: 1.2;
+}
+
+.product-atc-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* border: 2px solid orange; */
+}
+
+/* Will have to refactor this to make button a styling more global */
+.product-atc-btn a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600;
+  color: black;
+}
+
+.options-btn {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400;
+  color: black;
+}
+
+.product-price-options {
+  /* border: 2px solid blue; */
+  height: 50px;
+}
+
+.product-price-options div {
+  height: 100%;
+}
