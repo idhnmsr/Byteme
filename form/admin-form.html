@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/form.css" />
+  <title>#</title>
+</head>
+
+<body>
+  <div class="admin-form container-fluid">
+    <form class="container-fluid my-5">
+      <!-- Product Name -->
+
+      <div class="mb-3">
+        <label for="productName" class="form-label">Product Name</label>
+        <input type="text" class="form-control" id="productName" aria-describedby="productHelp"
+          placeholder="Enter product name" required />
+        <div id="" class="form-text">Product No.<span> 9283</span></div>
+      </div>
+
+      <!-- Price -->
+
+      <div class="mb-3">
+        <label for="price" class="form-label">Price</label>
+        <input type="number" step="0.01" min="0.00" class="form-control" id="price" aria-describedby="priceHelp"
+          placeholder="SGD" required />
+      </div>
+
+      <!-- Quantity -->
+
+      <div class="mb-3">
+        <label for="quantity" class="form-label">Quantity</label>
+      </div>
+      <input type="number" min="0" max="9999" id="typeNumber" class="form-control" id="quantity"
+        aria-describedby="quantityHelp" placeholder="0" required />
+
+      <!-- Category -->
+
+      <div class="dropdown">
+        <label class="form-label">Category</label>
+        <select id="category" required>
+          <option value="">Please Select</option>
+          <option value="cpu">CPU</option>
+          <option value="ram">RAM</option>
+          <option value="psu">PSU</option>
+          <option value="gpu">GPU</option>
+          <option value="motherboard">Motherboard</option>
+          <option value="fans-cooling">Fans & Cooling</option>
+          <option value="cases">Cases</option>
+        </select>
+      </div>
+
+      <!-- Description -->
+
+      <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea class="form-control" id="description" rows="3" placeholder="Enter description here"></textarea>
+      </div>
+
+      <!-- Options -->
+
+      <div class="dropdown">
+        <label class="form-label">Options</label>
+        <select id="options" required>
+          <option value="">Please Select</option>
+          <option value="cpu-options">#</option>
+          <option value="ram-options">#</option>
+          <option value="psu-options">#</option>
+          <option value="gpu-options">#</option>
+          <option value="fans-cooling-options">#</option>
+          <option value="cases-options">#</option>
+        </select>
+      </div>
+
+      <!-- Multiple Files -->
+
+      <div class="mb-3">
+        <label for="formFileMultiple" class="form-label">Images (jpeg, png)</label>
+        <input class="form-control" type="file" id="formFileMultiple" multiple />
+      </div>
+
+      <!-- Submit Button -->
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+  </div>
+</body>
+
+</html>
