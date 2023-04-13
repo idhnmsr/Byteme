@@ -68,10 +68,10 @@ function displayDetails(index) {
         for (let i = 0; i < productList.length; i++ ) {
 
             display += `
-            <div class="col-lg-4">
-                  <div class="card" style="width: 18rem;">
+            <div class="col-lg-3">
+                  <div class="card" style="width: 15rem;">
                       <img class="py-3" src=${productList[i].imageURL} class="card-img-top"
-                          alt="image" >
+                          alt="image" style="object-fit">
                       <div class="card-body">
                           <h5 class="card-title">${productList[i].name}</h5>
                           <p class="card-text py-3">${productList[i].style}</p>
@@ -116,10 +116,51 @@ function displayDetails(index) {
 
     }
     //The individial property valie are sent in thought the argument - later we need to refactor when we have the productform.html
-   addProduct("CPU Ryzen 7", "This is a Ryzen 7 CPU", "images/cpu-ryzen7.jpg", "Flower print", 35);
+    addProduct("CPU Ryzen 7", "This is a Ryzen 7 CPU", "images/cpu-ryzen7.jpg", "Flower print", 35);
 
-   addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+    addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
 
     addProduct("White T-shirt", "This is a blue T-shirt", "http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif", "Flower print", 35);
+
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+    addProduct()
+
+    
+
+
 
     displayProduct();

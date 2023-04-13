@@ -14,7 +14,10 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/productcategory.css" />
+    <link rel="stylesheet" href="css/productlist.css" />
+    <link rel="stylesheet" href="css/shoplist.css" />
+
+
     <title>Shop</title>
 </head>
 
@@ -23,9 +26,11 @@
     <!-- Insert Navbar -->
     <div id="navbar"></div>
 
-
     <!-- Content of Shop -->
-    <div id="product-category"></div>
+    <div id="product-wrapper">
+        <div id="product-menu"></div>
+        <div id="product-list"></div>
+      </div>
 
     <div id="footer"></div>
 
@@ -38,8 +43,10 @@
     <script>
         $(document).ready(function () {
             $("#navbar").load("common/navbar.html");
-            $("#product-category").load("shop/product-category.html");
+            $("#product-menu").load("common/product-menu.html");
+            $("#product-list").load("shop/product-list.html");
             $("#footer").load("common/footer.html");
+
         });
     </script>
 

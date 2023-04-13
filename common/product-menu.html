@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/productmenu.css" />
+  <title>Navbar</title>
+</head>
+
+<body>
+  <div class="product-menu">
+    <div class="row">
+      <div class="col-2">
+        <div class="categories">
+          <a href="#" class="list-group-item list-group-item-action image-container">
+            <img src="images/cat_cpu.png" data-text="CPU">
+            <span class="image-text">CPU</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <img src="images/cat_ram.png" data-text="RAM">
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <img src="images/cat_gpu.png" data-text="GPU">
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <img src="images/cat_case.png" data-text="Case">
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <img src="images/cat_psu.png" data-text="PSU">
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <img src="images/cat_fan.png" data-text="Fan">
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <img src="images/cat_fan.png" data-text="Fan">
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <img src="images/cat_fan.png" data-text="Fan">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const imageContainers = document.querySelectorAll('.image-container');
+
+    imageContainers.forEach(container => {
+      const text = container.querySelector('.image-text');
+      const image = container.querySelector('img');
+      const dataText = image.getAttribute('data-text');
+      text.innerText = dataText; // Set the text content to the value of the data-text attribute
+
+      image.addEventListener('mouseover', () => {
+        text.style.display = 'block'; // Show the text on mouseover
+      });
+
+      image.addEventListener('mouseout', () => {
+        text.style.display = 'none'; // Hide the text on mouseout
+      });
+    });
+  </script>
+</body>
+
+</html>
