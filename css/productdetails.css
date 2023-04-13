@@ -1,5 +1,7 @@
-#product-details {
-  background-color: #f2f2f2;
+span.carousel-control-next-icon,
+span.carousel-control-prev-icon,
+.carousel-indicators {
+  filter: invert(1);
 }
 
 #product-details img {

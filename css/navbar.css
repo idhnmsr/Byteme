@@ -1,5 +1,5 @@
 .navbar.bg-body-tertiary {
-   --bs-bg-opacity: 0;
+    --bs-bg-opacity: 0;
 }
 
 .navbar a {
@@ -20,19 +20,6 @@
     display: flex;
     margin-right: 38px;
     font-family: 'Montserrat', sans-serif;
-}
-
-.btn {
-    text-decoration: none;
-    color: black;
-    background-color: #f2f2f2;
-    border: 1px solid black;
-    border-radius: 5;
-    align-items: center;
-}
-
-.btn:hover {
-    background-color: #ed7171;
 }
 
 .login a {
