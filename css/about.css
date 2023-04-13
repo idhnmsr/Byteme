@@ -36,6 +36,13 @@
     display: inline-block;
 }
 
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
 .team .row .col {
     margin: 0.6rem;
     max-width: 25%;
@@ -101,6 +108,11 @@
         justify-content: center;
     }
 
+    .details {
+        position: relative;
+        z-index: 2;
+    }
+
     .my-paragraph {
         font-size: 16px;
         line-height: 1.5;
@@ -110,7 +122,6 @@
         /* Number of lines to show */
         -webkit-box-orient: vertical;
         display: -webkit-box;
-
     }
 
     /* Styles for "Read more" button */
@@ -118,8 +129,6 @@
         display: block;
         margin-top: 10px;
     }
-
-    
 
     .col a img {
         width: 70%;
