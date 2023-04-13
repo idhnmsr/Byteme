@@ -1,11 +1,10 @@
 .content {
     display: flex;
     justify-content: center;
-
 }
 
 .row {
-    gap: 80px;
+    gap: 1vw;
 }
 
 .content .col {
@@ -15,5 +14,18 @@
 
 .card {
     border-radius: 20px;
-    box-shadow: 4px 4px 4px rgb(184, 184, 184)
+    box-shadow: 4px 4px 4px rgb(184, 184, 184);
+    opacity: 70%;
+}
+
+.card:hover {
+    opacity: 100%;
+    -webkit-transition: opacity 1s;
+    transition: 0.5s;
+    rotate: 2deg;
+}
+
+h2 {
+    display: flex; 
+    justify-content: center;
 }
