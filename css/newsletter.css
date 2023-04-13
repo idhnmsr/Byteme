@@ -16,7 +16,7 @@
     background-color: white;
     padding: 30px;
     border-radius: 20px;
-    box-shadow: 4px 4px 4px rgb(184, 184, 184);
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 #newsletter .form-content {

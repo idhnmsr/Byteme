@@ -3,8 +3,11 @@
     width: 100%;
 }
 
+section,
 #banner,
 #content,
+#product-details,
+#product-category,
 #footer {
     background-color: #f2f2f2;
 }
@@ -46,12 +49,20 @@ p {
     font-size: 1.25rem;
 }
 
-a { 
-    color: inherit; text-decoration: none; 
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
+.btn:hover {
+    background-color: #ed7171;
+}
 
-
-
-
-
+.btn {
+    text-decoration: none;
+    color: black;
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    border-radius: 5;
+    align-items: center;
+}
