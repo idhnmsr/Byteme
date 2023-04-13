@@ -1,0 +1,146 @@
+.aboutuscontent .description .team .row .col .contact {
+    display: flex;
+}
+
+.aboutuscontent {
+    width: auto;
+    margin-top: 1rem;
+}
+
+.description {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.description h2 {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.description .my-paragraph {
+    line-height: 1.25;
+    padding: 1.5rem;
+}
+
+.read-more-button {
+    display: none
+}
+
+.col {
+    display: inline-block;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+.team .row .col {
+    margin: 0.6rem;
+    max-width: 25%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.team img {
+    width: 50%;
+    align-items: center;
+    border-radius: 50%;
+    margin: 5%;
+    box-shadow: 5px 5px 20px darkslategrey;
+}
+
+.col a img {
+    width: 45%;
+    margin: 5%;
+    box-shadow: 5px 5px 15px black;
+    padding: 0.5rem 0.5rem;
+}
+
+.col a img:hover {
+    background-color: #ed7171;
+    padding: 0.6rem 0.7rem;
+    transition: all 0.5s ease-in 0.1s;
+}
+
+.contact {
+    text-align: center;
+    justify-content: center;
+}
+
+
+.contact .email-button img {
+    display: inline-block;
+    width: 7%;
+    box-shadow: 5px 5px 15px black;
+    padding: 0.5rem 0.5rem;
+    margin: 3%;
+    border-radius: 10%;
+}
+
+.contact .email-button img:hover {
+    background-color: #ed7171;
+    padding: 0.6rem 0.5rem;
+    transition: all 0.5s ease-in 0.1s;
+}
+
+
+@media only screen and (max-width: 620px) {
+    .aboutuscontent {
+        margin-top: 1rem;
+    }
+
+    .description h1 {
+        font-size: xx-large;
+    }
+
+    .description h2 {
+        font-size: large;
+        justify-content: center;
+    }
+
+    .details {
+        position: relative;
+        z-index: 2;
+    }
+
+    .my-paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 3;
+        /* Number of lines to show */
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+    }
+
+    /* Styles for "Read more" button */
+    .read-more-button {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .col a img {
+        width: 70%;
+        margin: 5%;
+        box-shadow: 5px 5px 15px black;
+        padding: 0.5rem 0.5rem;
+    }
+    
+    .col a img:hover {
+        background-color: #ed7171;
+        padding: 0.6rem 0.7rem;
+        transition: all 0.5s ease-in 0.1s;
+    }
+
+}

@@ -1,17 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/productdetails.css" />
-    <title>#</title>
-</head>
-<body>
-   <div class="product-detail"> 
 
-   </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/productdetails.css" />
+  <title>#</title>
+</head>
+
+<body>
+
+  <!-- Grid Container for Product Details -->
+
+  <div class="container-fluid text-center container-md">
+    <div class="row">
+      <!-- This is the left box where the images go -->
+
+      <div class="col left-col my-5">
+        <div id="carouselIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/images/cpu-ryzen7.jpg" class="d-block w-100 image-fluid" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="/images/cpu-ryzen9.jpg" class="d-block w-100 image-fluid" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="/images/cpu-ryzen7.jpg" class="d-block w-100 image-fluid" alt="..." />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- This is the right box where the details go -->
+      <div class="col right-col my-5">
+        <div class="container-fluid product-name">
+          <!-- This is the h2 product name container -->
+          <h2 class="py-3">AMD Ryzen 7 CPU</h2>
+        </div>
+
+        <!-- This is where the price sits on the left column and the options dropdown on the right -->
+
+        <div class="container-fluid product-price-options">
+          <div class="container-fluid text-center">
+            <div class="row">
+              <!-- This is where the h3 for price to be pulled in from database lives - hard-coded for now -->
+
+              <div class="col price my-4">
+                <h3>$839</h3>
+              </div>
+
+              <!-- This is where the product options dropdown menu lives -->
+
+              <div class="options col my-3">
+                <!-- Options dropdown -->
+
+                <div class="btn-group">
+                  <select id="options" required>
+                    <option value="">Options</option>
+                    <option value="cpu-options">#</option>
+                    <option value="ram-options">#</option>
+                    <option value="psu-options">#</option>
+                    <option value="gpu-options">#</option>
+                    <option value="fans-cooling-options">#</option>
+                    <option value="cases-options">#</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="container-fluid product-description">
+                <p class="py-3">
+                  This is product text. This is the text describing the
+                  product. This text is describing the product oh so very
+                  well. Details of the product will exist here. There is no
+                  better description of the product than will exist right
+                  here, in this spot.
+                  This is product text. This is the text describing the
+                  product. This text is describing the product oh so very
+                  well. Details of the product will exist here. There is no
+                  better description of the product than will exist right
+                  here, in this spot.
+                  This is product text. This is the text describing the
+                  product. This text is describing the product oh so very
+                  well. Details of the product will exist here. There is no
+                  better description of the product than will exist right
+                  here, in this spot.
+                </p>
+              </div>
+
+              <div class="container-fluid product-atc-btn mt-4">
+                <button type="button" class="btn">
+                  <a href="#">Add to Cart</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
+
 </html>

@@ -2,15 +2,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
+    width: 100%;
     background-color: #f2f2f2;
+    padding-bottom: 30px;
 }
 
 #newsletter form {
-    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
     margin: 0;
     background-color: white;
     padding: 30px;
     border-radius: 20px;
     box-shadow: 4px 4px 4px rgb(184, 184, 184);
+}
+
+#newsletter .form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#newsletter h4 {
+    text-align: center;
 }
