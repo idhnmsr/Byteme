@@ -1,21 +1,12 @@
-// /* <script>
-//     function myFunction() {
-//         let dots = document.getElementById("dots");
 
-//     //     let dots = document.getElementById("dots");
-//     //             let moreText = document.getElementById("more");
-//     //     let btnText = document.getElementById("myBtn");
-
-//     //     if (dots.style.display === "none") { */}
-//     //          dots.style.display = "inline";
-//     //          btnText.innerHTML = "Read more";
-//     //          moreText.style.display = "none";
-//     //     }
-//     //     else {
-//     //           dots.style.display = "none";
-//     //          btnText.innerHTML = "Read less";
-//     //         moreText.style.display = "inline";
-
-//     // }
-
-// // </script>
+  function showFullParagraph() {
+    let paragraph = document.querySelector('.my-paragraph');
+    paragraph.classList.toggle('show-full');
+    let button = document.querySelector('.read-more-button');
+    if (button.innerHTML === "Read more") {
+      button.innerHTML = "Read less";
+    } 
+    else {
+      button.innerHTML = "Read more";
+    }
+  }

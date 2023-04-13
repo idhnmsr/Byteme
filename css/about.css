@@ -2,133 +2,136 @@
     display: flex;
 }
 
-
-
 .aboutuscontent {
-    /* display: flex; */
     width: auto;
-    margin-top: 4rem;
-    /* border: 5px solid red; */
-
+    margin-top: 1rem;
 }
 
 .description {
-    /* display: flex; */
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    /* border: 5px solid blue; */
 }
 
 .description h1 {
     text-align: center;
     text-decoration: underline;
-   
 }
 
 .description h2 {
     padding-top: 2rem;
     text-align: center;
-    /* border: 5px solid purple; */
 }
 
-.description p {
+.description .my-paragraph {
     line-height: 1.25;
     padding: 1.5rem;
 }
 
-.team {
-    /* display: flex; */
-    flex-wrap: wrap;
-    justify-content: center;
-    /* border: 5px solid slateblue */
+.read-more-button {
+    display: none
 }
+
+.col {
+    display: inline-block;
+}
+
 .team .row .col {
-    /* display: flex; */
-    margin: 0.5rem;
+    margin: 0.6rem;
     max-width: 25%;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    /* flex-wrap: wrap; */
-    /* border: 5px solid orange */
 }
 
 .team img {
     width: 50%;
     align-items: center;
     border-radius: 50%;
+    margin: 5%;
     box-shadow: 5px 5px 20px darkslategrey;
-    /* transition: all 0.5s ease-in 0.1s; */
 }
 
+.col a img {
+    width: 45%;
+    margin: 5%;
+    box-shadow: 5px 5px 15px black;
+    padding: 0.5rem 0.5rem;
+}
 
-button:hover {
+.col a img:hover {
     background-color: #ed7171;
-    box-shadow: 5px 5px 20px black;
-    padding: 1.25rem 0.5rem;
+    padding: 0.6rem 0.7rem;
     transition: all 0.5s ease-in 0.1s;
-    font-size: larger;
-}
-
-.col button {
-    margin: 1rem;
-    padding: 0.5rem;
-    width: 30%;
-    border-radius: 10%;
-    background-color: #f2f2f2;
-    border: 1px solid black;
-    box-shadow: 5px 5px 15px darkslategrey;
-}
-
-.col button:hover {
-    background-color: #ed7171;
-    box-shadow: 5px 5px 10px black;
-    padding: 1rem 0.5rem;
-    transition: all 0.5s ease-in 0.1s;
-    font-size:medium;
 }
 
 .contact {
-    /* display: flex; */
     text-align: center;
     justify-content: center;
-    /* border: 5px solid green */
 }
 
-.contact button {
-    margin: 1.5rem;
-    padding: 1rem;
-    width: 20%;
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: large;
-    border-radius: 40%;
 
-}
-
-.contact button:hover {
-    background-color: #ed7171;
+.contact .email-button img {
+    display: inline-block;
+    width: 7%;
     box-shadow: 5px 5px 15px black;
-    padding: 1.25rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    margin: 3%;
+    border-radius: 10%;
+}
+
+.contact .email-button img:hover {
+    background-color: #ed7171;
+    padding: 0.6rem 0.5rem;
     transition: all 0.5s ease-in 0.1s;
-    font-size: large;
 }
 
 
 @media only screen and (max-width: 620px) {
     .aboutuscontent {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
+
     .description h1 {
         font-size: xx-large;
     }
+
     .description h2 {
         font-size: large;
         justify-content: center;
     }
-    /* .description p {
-        display: none
-    } */
+
+    .my-paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 3;
+        /* Number of lines to show */
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+
+    }
+
+    /* Styles for "Read more" button */
+    .read-more-button {
+        display: block;
+        margin-top: 10px;
+    }
+
     
+
+    .col a img {
+        width: 70%;
+        margin: 5%;
+        box-shadow: 5px 5px 15px black;
+        padding: 0.5rem 0.5rem;
+    }
+    
+    .col a img:hover {
+        background-color: #ed7171;
+        padding: 0.6rem 0.7rem;
+        transition: all 0.5s ease-in 0.1s;
+    }
+
 }
