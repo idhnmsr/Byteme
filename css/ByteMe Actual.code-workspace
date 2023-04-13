@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Front_End_NEWApril/WebDemo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ByteMe Actual"
+	}
+}
