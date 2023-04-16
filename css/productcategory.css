@@ -1,17 +1,21 @@
 .product-category {
-  padding-top: 100px;
-
+  padding: 8% 0 8% 0;
 }
 
 .card {
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
   z-index: +1;
   border-radius: 10%;
-
+  border: 0;
+  width: 18rem;
 }
 
 .card:hover {
   rotate: 2deg;
+}
+
+.card-title {
+  margin: 0;
 }
 
 .card>img {
@@ -26,8 +30,6 @@ img:hover {
   opacity: 90%;
   -webkit-transition: opacity 1s;
   transition: opacity 0.5s;
-
-
 }
 
 .image_container {
@@ -49,30 +51,37 @@ img:hover {
   overflow: hidden;
   width: 100%;
   height: 0;
-  transition: height 0.3s ease-in-out;
+  border-radius: 10%;
+  transition: height 0.2s ease-in-out;
 }
 
-.overlay h3 {
-  color: #fff;
+.card-body.overlay {
+  padding: 0;
+}
+
+.overlay h5 {
+  color: #ffff;
   font-size: 1.5rem;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
+  top: 45%;
+  bottom: 45%;
+  left: 15%;
+  right: 15%;
+  /* transform: translate(-50%, -50%); */
+  /* margin: 0;
   padding: 0;
-  opacity: 0;
+  opacity: 0; */
   transition: opacity 0.3s ease-in-out;
 }
 
-.image_container:hover img {
+.card:hover img {
   opacity: 0.7;
 }
 
-.image_container:hover .overlay {
+.card:hover .overlay {
   height: 100%;
 }
 
-.image_container:hover .overlay h3 {
+/* .image_container:hover .overlay h3 {
   opacity: 1;
-}
+} */
