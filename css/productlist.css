@@ -125,6 +125,12 @@
      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
  }
 
+ .list-group-item h4 {
+     font-weight: 600;
+     color: black;
+     opacity: 0.2 !important;
+ }
+
  .list-group-item:hover .list-group-item-hidden {
      opacity: 1;
      visibility: visible;
