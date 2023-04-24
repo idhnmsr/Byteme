@@ -75,7 +75,7 @@ function displayProduct() {
                       <div class="card-body">
                           <h5 class="card-title">${productList[i].name}</h5>
                           <p class="card-text py-3">${productList[i].style}</p>
-                          <a id="item${i + 1}" href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#productModal" onClick="displayDetails(${i})">View Product</a>
+                          <a href="product.html" class="btn btn-primary">View Product</a>
                       </div>
                   </div>
                 </div>   
