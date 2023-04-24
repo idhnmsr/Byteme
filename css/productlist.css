@@ -3,7 +3,10 @@
      flex-direction: row;
      justify-content: center;
      align-items: center; */
-     background-color: #f2f2f2;
+     /* background-color: #f2f2f2;
+     background-image: url(/images/pngegg.png) !important;
+     background-size: cover !important;
+     background-repeat: no-repeat; */
  }
 
  .col-lg-3 .card {
@@ -30,7 +33,7 @@
      position: fixed;
      width: auto;
      align-items: center;
-     top: 180px;
+     top: 170px;
      /* border: 2px solid red; */
      /* width: 200px; */
      /* width: 100%; */

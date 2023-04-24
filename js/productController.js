@@ -110,34 +110,32 @@ function addProduct(n, d, i, s, p) {
 
 }
 //The individial property valie are sent in thought the argument - later we need to refactor when we have the productform.html
-addProduct("CPU Ryzen 7", "This is a Ryzen 7 CPU", "images/cpu-ryzen7.jpg", "Flower print", 35);
+addProduct("CPU Ryzen 7", "This is a Ryzen 7 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
-addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
-addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
-addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
-addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
-addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
-addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
-addProduct("CPU Ryzen 7", "This is a Ryzen 7 CPU", "images/cpu-ryzen7.jpg", "Flower print", 35);
+addProduct("CPU Ryzen 7", "This is a Ryzen 7 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
-addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
-addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
-addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
-addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
-addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
-addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
-
-addProduct("White T-shirt", "This is a blue T-shirt", "http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif", "Flower print", 35);
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/ram-16gb.jpg", "Flower print", 35);
 
 displayProduct();

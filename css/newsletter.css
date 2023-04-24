@@ -17,6 +17,9 @@
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    /* background-image: url(/images/giphy.gif) !important;
+    background-repeat: no-repeat;
+    background-size: contain; */
 }
 
 #newsletter .form-content {
@@ -27,4 +30,9 @@
 
 #newsletter h4 {
     text-align: center;
+    color: #FC6D6D;
 }
+
+/* input.form-control {
+    height: 100px;
+} */
