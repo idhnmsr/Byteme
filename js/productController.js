@@ -47,120 +47,97 @@ const product4 = {
 
 //(2) Push the product objects into an array
 const productList = [];
-productList.push(product1, product2, product3, product4);
+// productList.push(product1, product2, product3, product4);
 
 
-function displayDetails(index) {
-    // When user clicks on any "More" button, the details of the selected product will be displayed
-    document.querySelector("#modalName").innerHTML = productList[index].name;
-    document.querySelector("#modalStyle").innerHTML = productList[index].style;
-    document.querySelector("#modalPrice").innerHTML = productList[index].price;
-    document.querySelector("#modalImg").src = productList[index].imageURL;
+// function displayDetails(index) {
+//     // When user clicks on any "More" button, the details of the selected product will be displayed
+//     document.querySelector("#modalName").innerHTML = productList[index].name;
+//     document.querySelector("#modalStyle").innerHTML = productList[index].style;
+//     document.querySelector("#modalPrice").innerHTML = productList[index].price;
+//     document.querySelector("#modalImg").src = productList[index].imageURL;
 
-}
+// }
 
 //(3) Display all products when user launch the product.html page
 //const displayProduct = () => {
-    function displayProduct() {
+function displayProduct() {
 
-        let display = "";
+    let display = "";
 
-        for (let i = 0; i < productList.length; i++ ) {
+    for (let i = 0; i < productList.length; i++) {
 
-            display += `
+        display += `
             <div class="col-lg-3">
-                  <div class="card" style="width: 15rem;">
+                  <div class="card">
                       <img class="py-3" src=${productList[i].imageURL} class="card-img-top"
-                          alt="image" style="object-fit">
+                          alt="image" >
                       <div class="card-body">
                           <h5 class="card-title">${productList[i].name}</h5>
                           <p class="card-text py-3">${productList[i].style}</p>
-                          <a id="item${i+1}" href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#productModal" onClick="displayDetails(${i})">View Product</a>
+                          <a id="item${i + 1}" href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#productModal" onClick="displayDetails(${i})">View Product</a>
                       </div>
                   </div>
                 </div>   
                 `
-
-
-
-
-
-
-        }
-
-        document.querySelector("#row").innerHTML= display;
-
-
-
-
-    } //End of display product function
-
-    //(4) Add product to the product ilst when user clicks on the submit button from the productform.html
-    function addProduct(n, d, i, s, p) {
-
-        // The parameter will be sent in from another function.
-        /*
-        1) Construct/Create the object
-            property: value
-        */
-
-        const productItem = {
-            name: n,
-            description: d,
-            imageURL: i,
-            style: s,
-            price: p
-        }
-
-        productList.push(productItem);
-
     }
-    //The individial property valie are sent in thought the argument - later we need to refactor when we have the productform.html
-    addProduct("CPU Ryzen 7", "This is a Ryzen 7 CPU", "images/cpu-ryzen7.jpg", "Flower print", 35);
 
-    addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
-
-    addProduct("White T-shirt", "This is a blue T-shirt", "http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif", "Flower print", 35);
-
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-    addProduct()
-
-    
+    document.querySelector("#row").innerHTML = display;
 
 
 
-    displayProduct();
+
+} //End of display product function
+
+//(4) Add product to the product ilst when user clicks on the submit button from the productform.html
+function addProduct(n, d, i, s, p) {
+
+    // The parameter will be sent in from another function.
+    /*
+    1) Construct/Create the object
+        property: value
+    */
+
+    const productItem = {
+        name: n,
+        description: d,
+        imageURL: i,
+        style: s,
+        price: p
+    }
+
+    productList.push(productItem);
+
+}
+//The individial property valie are sent in thought the argument - later we need to refactor when we have the productform.html
+addProduct("CPU Ryzen 7", "This is a Ryzen 7 CPU", "images/cpu-ryzen7.jpg", "Flower print", 35);
+
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+
+addProduct("CPU Ryzen 7", "This is a Ryzen 7 CPU", "images/cpu-ryzen7.jpg", "Flower print", 35);
+
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+
+addProduct("CPU Ryzen 9", "This is a Ryzen 9 CPU", "images/cpu-ryzen9.jpg", "Flower print", 35);
+
+addProduct("White T-shirt", "This is a blue T-shirt", "http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif", "Flower print", 35);
+
+displayProduct();
