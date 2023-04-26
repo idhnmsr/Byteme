@@ -74,7 +74,7 @@ function displayProduct() {
 
                         <div class="container-fluid product-description">
                             <p class="py-3">
-                            ${productItem[i].description}
+                            ${productItem[i].desc}
                             </p>
                         </div>
 
