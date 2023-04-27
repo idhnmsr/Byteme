@@ -107,6 +107,6 @@ function addProduct(name, desc, images, options, p) {
 
 }
 //The individial property values are sent in thought the argument 
-addProduct("Corsair RGB - 16GB", "This is a Corsair RGB - 16GB. This is more descriptive text, giving a descriptive take on the product. How nice to have a descriptions of things. Who doesn't like a good description?<br><br> Here is even more text. The line is broken using a break tag.", ["images/ram-16gb.jpg", "images/ram-32gb.jpg", "images/ram-16gb.jpg"], ["RAM", "CPU", "GPU"], "$239");
+addProduct("Corsair RGB - 16GB", "This is a Corsair RGB - 16GB. This is more descriptive text, giving a descriptive take on the product. How nice to have a descriptions of things. Who doesn't like a good description?<br><br> Here is even more text. The line is broken using a break tag.", ["images/ram-16gb.jpg", "images/ram-32gb.jpg", "images/ram-16gb.jpg"], ["1 x 16GB DDR4", "2 x 8GB DDR4", "1 x 16GB DDR5", "2 x 8GB DDR5"], "$239");
 
 displayProduct();
