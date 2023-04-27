@@ -1,50 +1,42 @@
 
-const product1 = {
-  name: "Ram 16Gb",
-  description: "This 16 GB RAM Module",
-  imageURL: "images/ram-16gb.jpg",
-  style: "White / LED",
-  price: 20.50
-}
-
-const featuredItem = [];
+const featuredItems = [];
 
 function displayProduct() {
 
-    let display = "";
+  let display = "";
 
-    for (let i = 0; i < featuredItem.length; i++) {
+  for (let i = 0; i < featuredItems.length; i++) {
 
-        display += `
+    display += `
         <div class="col my-5">
         <div class="card" style="width: 18rem;">
-        <img class="py-3" src=${featuredItem[i].imageURL} class="card-img-top" alt="...">
+        <img class="py-3" src=${featuredItems[i].imageURL} class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">${featuredItem[i].name}</h5>
+          <h5 class="card-title">${featuredItems[i].name}</h5>
         
-          <p class="card-text py-3">${featuredItem[i].style}</p>
+          <p class="card-text py-3">${featuredItems[i].style}</p>
         </div>
       </div>
       </div>
     `
-    }
+  }
 
-    document.querySelector("#row").innerHTML = display;
+  document.querySelector("#row").innerHTML = display;
 
 
 }
 
 function addProduct(n, d, i, s, p) {
 
-    const featureditems = {
-        name: n,
-        description: d,
-        imageURL: i,
-        style: s,
-        price: p
-    }
+  const featureditems = {
+    name: n,
+    description: d,
+    imageURL: i,
+    style: s,
+    price: p
+  }
 
-    featuredItem.push(featureditems);
+  featuredItems.push(featureditems);
 
 }
 //The individial property valie are sent in thought the argument - later we need to refactor when we have the productform.html
