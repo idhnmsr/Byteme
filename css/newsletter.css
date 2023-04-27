@@ -34,3 +34,18 @@
     text-align: center;
     color: #FC6D6D;
 }
+
+#newsletter form {
+    animation: bottom-up 2s ease-in-out forwards;
+}
+
+@keyframes bottom-up {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}

@@ -80,6 +80,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
+     
  }
 
  .row h1 {
@@ -201,3 +202,34 @@
          margin-bottom: 35px;
      }
  }
+
+ /*PRODUCT LIST*/
+ #list-items {
+    animation: fade-in 1.5s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateZ(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.fly-in {
+    animation: fly-in 1.5s ease-in-out forwards;
+}
+
+@keyframes fly-in {
+    from {
+        opacity: 0;
+        transform: translate(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
