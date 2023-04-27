@@ -14,6 +14,13 @@ function displayProduct() {
     let display = "";
 
     for (let i = 0; i < productItem.length; i++) {
+        let imagesHTML = '';
+        for (let j = 0; j < productItem[i].images.length; j++) {
+            imagesHTML += `
+            <div class="carousel-item ${j === 0 ? 'active' : ''}">
+              <img src="${productItem[i].images[j]}" class="d-block w-100 image-fluid" alt="..." />
+            </div>`;
+        }
 
         display += `
         <div class="col left-col my-5">
@@ -27,15 +34,7 @@ function displayProduct() {
               aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src=${productItem[i].img1} class="d-block w-100 image-fluid" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src=${productItem[i].img2} class="d-block w-100 image-fluid" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src=${productItem[i].img3} class="d-block w-100 image-fluid" alt = "..." />
-            </div >
+           ${imagesHTML}
             </div >
              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -66,7 +65,7 @@ function displayProduct() {
 
                             <div class="btn-group">
                                 <select id="options" required>
-                                    <option value="options">Options</option>
+                                <option value="options">Options</option>
                                     ${productItem[i].options.map(option => `<option value="${option}">${option}</option>`).join('')}
                                 </select>
                             </div>
@@ -74,7 +73,7 @@ function displayProduct() {
 
                         <div class="container-fluid product-description">
                             <p class="py-3">
-                            ${productItem[i].desc}
+                            ${productItem[i].description}
                             </p>
                         </div>
 
@@ -94,14 +93,12 @@ function displayProduct() {
 
 }
 
-function addProduct(name, desc, img1, img2, img3, options, p) {
+function addProduct(name, desc, images, options, p) {
 
     const productitems = {
         name: name,
         description: desc,
-        img1: img1,
-        img2: img2,
-        img3: img3,
+        images: images,
         options: options,
         price: p
     }
@@ -110,6 +107,6 @@ function addProduct(name, desc, img1, img2, img3, options, p) {
 
 }
 //The individial property values are sent in thought the argument 
-addProduct("Corsair RGB - 16GB", "This is a Corsair RGB - 16GB", "images/ram-16gb.jpg", "images/ram-16gb.jpg", "images/ram-16gb.jpg", ["RAM", "CPU", "GPU"], 239);
+addProduct("Corsair RGB - 16GB", "This is a Corsair RGB - 16GB. This is more descriptive text, giving a descriptive take on the product. How nice to have a descriptions of things. Who doesn't like a good description?<br><br> Here is even more text. The line is broken using a break tag.", ["images/ram-16gb.jpg", "images/ram-32gb.jpg", "images/ram-16gb.jpg"], ["RAM", "CPU", "GPU"], "$239");
 
 displayProduct();
