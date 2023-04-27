@@ -33,6 +33,12 @@ h2 {
     justify-content: center;
 }
 
+.content p {
+    height: 100%;
+    line-height: 1.4;
+    font-family: 'Kanit';
+}
+
 /* .content {
     background-image: url(/images/giphy.gif) !important;
 

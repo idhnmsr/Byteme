@@ -48,9 +48,9 @@ function addProduct(n, d, i) {
 
 }
 //The individial property values are sent in thought the argument 
-addProduct("Corsair RGB - 16GB", "This is a Corsair RGB - 16GB. This is more descriptive text. ", "images/ram-16gb.jpg");
-addProduct("Corsair RGB - 32GB", "This is a Corsair RGB - 16GB. This is more descriptive text. ", "images/ram-32gb.jpg");
-addProduct("Corsair RGB - 16GB", "This is a Corsair RGB - 16GB. This is more descriptive text. ", "images/ram-16gb.jpg");
-addProduct("Corsair RGB - 32GB", "This is a Corsair RGB - 16GB. This is more descriptive text. ", "images/ram-32gb.jpg");
+addProduct("Corsair RGB - 16GB", "This is more descriptive text. ", "images/ram-16gb.jpg");
+addProduct("Corsair RGB - 32GB", "This is more descriptive text. ", "images/ram-32gb.jpg");
+addProduct("Corsair RGB - 16GB", "This is more descriptive text. ", "images/ram-16gb.jpg");
+addProduct("Corsair RGB - 32GB", "This is more descriptive text. ", "images/ram-32gb.jpg");
 
 displayProduct();
