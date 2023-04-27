@@ -17,6 +17,7 @@ function displayProduct() {
 
         display += `
         <div class="col my-5">
+            <a href="product.html">
             <div class="card" style="width: 18rem;">
                 <img class="py-3" src=${relatedItems[i].imageURL} class="card-img-top" alt="...">
                 <div class="card-body">
@@ -24,6 +25,7 @@ function displayProduct() {
                     <p class="card-text py-3">${relatedItems[i].description}</p>
                 </div>
             </div>
+            </a>
         </div>
     `
     }
