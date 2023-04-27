@@ -6,6 +6,7 @@
 section,
 #banner,
 #content,
+#product-list,
 #product-details,
 #product-category,
 #related-items,
@@ -66,4 +67,5 @@ a {
     border: 1px solid black;
     border-radius: 5;
     align-items: center;
+    font-family: 'Montserrat';
 }

@@ -5,6 +5,7 @@
     width: 100%;
     background-color: #f2f2f2;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 #newsletter form {
@@ -17,9 +18,10 @@
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
-    /* background-image: url(/images/giphy.gif) !important;
+    background-image: url(/images/giphy.gif) !important;
     background-repeat: no-repeat;
-    background-size: contain; */
+    background-size: contain;
+    background-position: -18%;
 }
 
 #newsletter .form-content {
@@ -32,7 +34,3 @@
     text-align: center;
     color: #FC6D6D;
 }
-
-/* input.form-control {
-    height: 100px;
-} */

@@ -28,6 +28,12 @@
     rotate: 2deg;
 }
 
+.related-items p {
+    height: 100%;
+    line-height: 1.4;
+    font-family: 'Kanit';
+}
+
 h2 {
     display: flex;
     justify-content: center;

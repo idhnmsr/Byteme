@@ -59,6 +59,10 @@ span.carousel-control-prev-icon,
   color: black;
 }
 
+.product-atc-btn:hover a {
+  color: white;
+}
+
 #options {
   padding-left: 10px;
   text-decoration: none;
