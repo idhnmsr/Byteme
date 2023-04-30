@@ -3,6 +3,20 @@
     border: none;
 }
 
+.container {
+    animation: login 1s ease-in-out forwards;
+}
+
+@keyframes login {
+    from {
+        opacity: 0;
+        transform: translateZ(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
 /* section {
     background-color: #f2f2f2;
 } */

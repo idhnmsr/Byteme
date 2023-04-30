@@ -15,7 +15,6 @@
 
 .description h1 {
     text-align: center;
-    text-decoration: underline;
 }
 
 .description h2 {
@@ -26,6 +25,7 @@
 .description .my-paragraph {
     line-height: 1.25;
     padding: 1.5rem;
+    text-align: center;
 }
 
 .read-more-button {
@@ -51,25 +51,25 @@
     align-items: center;
 }
 
-.team img {
-    width: 50%;
+.profile {
+    width: 70%;
     align-items: center;
     border-radius: 50%;
     margin: 5%;
-    box-shadow: 5px 5px 20px darkslategrey;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.35);
 }
 
-.col a img {
+/* .col a img {
     width: 45%;
     margin: 5%;
     box-shadow: 5px 5px 15px black;
     padding: 0.5rem 0.5rem;
-}
+} */
 
 .col a img:hover {
     background-color: #ed7171;
     padding: 0.6rem 0.7rem;
-    transition: all 0.5s ease-in 0.1s;
+    transition: all 0.1s ease-in 0.1s;
 }
 
 .contact {
@@ -91,6 +91,21 @@
     background-color: #ed7171;
     padding: 0.6rem 0.5rem;
     transition: all 0.5s ease-in 0.1s;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+}
+
+.teamimage {
+    width: 50%;
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.15);
+    padding: 12px 25px;
 }
 
 .teamMember1 {
