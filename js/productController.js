@@ -74,6 +74,7 @@ function displayProduct() {
                           alt="image" >
                       <div class="card-body">
                           <h5 class="card-title">${productList[i].name}</h5>
+                          <h5 class="price">$${productList[i].price}</h5>
                           <p class="card-text py-3">${productList[i].style}</p>
                           <a href="product.html" class="btn btn-primary">View Product</a>
                       </div>

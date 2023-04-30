@@ -72,9 +72,10 @@ function displayProduct() {
                         </div>
 
                         <div class="container-fluid product-description">
-                            <p class="py-3">
+                        <!-- to be tested once form is linked -->
+                            <pre class="py-3">
                             ${productItem[i].description}
-                            </p>
+                            </pre>
                         </div>
 
                         <div class="container-fluid product-atc-btn mt-4">
