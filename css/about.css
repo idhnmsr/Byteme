@@ -93,7 +93,65 @@
     transition: all 0.5s ease-in 0.1s;
 }
 
+.teamMember1 {
+    animation: hadi 0.5s ease-in-out forwards;
+}
 
+@keyframes hadi {
+    from {
+        opacity: 0;
+        transform: translateZ(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.teamMember2 {
+    animation: yuki 1s ease-in-out forwards;
+}
+
+@keyframes yuki {
+    from {
+        opacity: 0;
+        transform: translateZ(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.teamMember3 {
+    animation: kiran 1.5s ease-in-out forwards;
+}
+
+@keyframes kiran {
+    from {
+        opacity: 0;
+        transform: translateZ(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.teamMember4 {
+    animation: pat 2s ease-in-out forwards;
+}
+
+@keyframes pat {
+    from {
+        opacity: 0;
+        transform: translateZ(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
 @media only screen and (max-width: 620px) {
     .aboutuscontent {
         margin-top: 1rem;
